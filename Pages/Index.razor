@@ -1,0 +1,51 @@
+﻿@page "/"
+@using Models;
+@inject NavigationManager NavigationManager;
+
+<PageTitle>Games</PageTitle>
+
+<h1>Game Catalogue</h1>
+<div>
+    <div>
+        <button type="button" @onclick="CreateGame">New Game</button>
+    </div>
+</div>
+
+@if(games is null){
+    <p>Loading ....</p>
+}else{
+    <table>
+    <thead>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Genre</th>
+        <th>Price</th>
+        <th>Release Date</th>
+        <th></th>
+    </thead>
+    <tbody>
+        @foreach (var game in games)
+        {
+            <tr>
+                <td>@game.Id</td>
+                <td>@game.Name</td>
+                <td>@game.Genre</td>
+                <td>@game.Price</td>
+                <td>@game.ReleaseDate.ToString("MM,dd,yyyy")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+}
+
+@code{
+    private Game[]? games;
+
+        protected override void OnInitialized()
+        {
+            games = GameClient.GetGames();
+        }
+        private void CreateGame(){
+            NavigationManager.NavigateTo("/editgame");
+        }
+}

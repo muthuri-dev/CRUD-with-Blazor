@@ -1,0 +1,45 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = newApp
+build_property.RootNamespace = newApp
+build_property.ProjectDir = /home/kennedy_muthuri/Developer/Practices/Blazor_Apps/newApp/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/kennedy_muthuri/Developer/Practices/Blazor_Apps/newApp
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/kennedy_muthuri/Developer/Practices/Blazor_Apps/newApp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kennedy_muthuri/Developer/Practices/Blazor_Apps/newApp/Pages/EditGame.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRWRpdEdhbWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kennedy_muthuri/Developer/Practices/Blazor_Apps/newApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kennedy_muthuri/Developer/Practices/Blazor_Apps/newApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kennedy_muthuri/Developer/Practices/Blazor_Apps/newApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kennedy_muthuri/Developer/Practices/Blazor_Apps/newApp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kennedy_muthuri/Developer/Practices/Blazor_Apps/newApp/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

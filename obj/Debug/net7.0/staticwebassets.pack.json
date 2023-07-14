@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/home/kennedy_muthuri/Developer/Practices/Blazor_Apps/newApp/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/home/kennedy_muthuri/Developer/Practices/Blazor_Apps/newApp/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.newApp.props",
+      "PackagePath": "build\\newApp.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.newApp.props",
+      "PackagePath": "buildMultiTargeting\\newApp.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.newApp.props",
+      "PackagePath": "buildTransitive\\newApp.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.newApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

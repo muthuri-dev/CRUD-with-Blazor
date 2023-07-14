@@ -1,0 +1,56 @@
+@page "/editgame"
+@page "/editgame/{id:int}"
+@using Models;
+@inject NavigationManager NavigationManager;
+
+<h1>Edit games</h1>
+
+<div>
+    <div>
+        <EditForm Model="@game" OnValidSubmit="HandleSubmit"> 
+            <DataAnnotationsValidator/>
+            <ValidationSummary/>
+            <div>
+                <label for="name">Name</label>
+                <InputText id="name" @bind-Value="game.Name"/>
+            </div>
+            <div>
+                <label for="genre">Genre</label>
+                <InputSelect id="genre" @bind-Value="game.Genre">
+                    <option value="">Select Genre</option>
+                    <option value="Fighting">Fighting</option>
+                    <option value ="romance">Romance</option>
+                    <option value="race">Racing</option>
+                </InputSelect>
+            </div>
+            <div>
+                <label for="price">Price</label>
+                <InputNumber id="price" @bind-Value="game.Price"/>
+            </div>
+            <div>
+                <label for="date">Name</label>
+                <InputDate id="date" @bind-Value="game.ReleaseDate"/>
+            </div>
+            <button type="submit">Save</button>
+            <button type="button" @onclick="Cancel">Cancel</button>
+        </EditForm>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public int? Id {get;set;}
+    private Game game = new(){
+        Name = string.Empty,
+        Genre = string.Empty,
+        ReleaseDate = DateTime.UtcNow,
+
+    };
+    private void HandleSubmit (){
+        GameClient.AddGame(game);
+        NavigationManager.NavigateTo("/");
+    }
+    private void Cancel(){
+        NavigationManager.NavigateTo("/");
+    }
+}

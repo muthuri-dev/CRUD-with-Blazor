@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "YzGPdD0N4mbtJ9OZClz3s8ur3Nc9pUip6RZqA8xpsbk=",
+  "Source": "newApp",
+  "BasePath": "_content/newApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "newApp/wwwroot",
+      "Source": "newApp",
+      "ContentRoot": "/home/kennedy_muthuri/Developer/Practices/Blazor_Apps/newApp/wwwroot/",
+      "BasePath": "_content/newApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/kennedy_muthuri/Developer/Practices/Blazor_Apps/newApp/wwwroot/css/app.css",
+      "SourceId": "newApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/kennedy_muthuri/Developer/Practices/Blazor_Apps/newApp/wwwroot/",
+      "BasePath": "_content/newApp",
+      "RelativePath": "css/app.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/app.css"
+    },
+    {
+      "Identity": "/home/kennedy_muthuri/Developer/Practices/Blazor_Apps/newApp/wwwroot/favicon.png",
+      "SourceId": "newApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/kennedy_muthuri/Developer/Practices/Blazor_Apps/newApp/wwwroot/",
+      "BasePath": "_content/newApp",
+      "RelativePath": "favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.png"
+    }
+  ]
+}

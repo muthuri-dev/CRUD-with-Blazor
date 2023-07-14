@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "r0liGWm8zSW9oxlWcU70/rr/bjC8ZM9zFp4/L5aOD6Tbz2boEPw6e63oACVIgk919oAcgoTdOsFtpvi5jDjywg==",
+  "success": true,
+  "projectFilePath": "/home/kennedy_muthuri/Developer/Practices/Blazor_Apps/newApp/newApp.csproj",
+  "expectedPackageFiles": [
+    "/home/kennedy_muthuri/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.7/microsoft.aspnetcore.app.ref.7.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
